@@ -8,13 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		1B23B6F31B5258FA002676A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B23B6F21B5258FA002676A1 /* AppDelegate.swift */; };
-		1B23B6F51B5258FA002676A1 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1B23B6F41B5258FA002676A1 /* GameScene.sks */; };
 		1B23B6F71B5258FA002676A1 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B23B6F61B5258FA002676A1 /* GameScene.swift */; };
 		1B23B6F91B5258FA002676A1 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B23B6F81B5258FA002676A1 /* GameViewController.swift */; };
 		1B23B6FC1B5258FA002676A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B23B6FA1B5258FA002676A1 /* Main.storyboard */; };
 		1B23B6FE1B5258FA002676A1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B23B6FD1B5258FA002676A1 /* Images.xcassets */; };
 		1B23B7011B5258FA002676A1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B23B6FF1B5258FA002676A1 /* LaunchScreen.xib */; };
 		1B23B70D1B5258FA002676A1 /* platformerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B23B70C1B5258FA002676A1 /* platformerTests.swift */; };
+		1B23B7171B525E0C002676A1 /* StartGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B23B7161B525E0C002676A1 /* StartGameScene.swift */; };
+		1B23B7191B52610E002676A1 /* Invader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B23B7181B52610E002676A1 /* Invader.swift */; };
+		1B23B71B1B5262FF002676A1 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B23B71A1B5262FF002676A1 /* Player.swift */; };
+		1B23B71D1B5266CE002676A1 /* Bullet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B23B71C1B5266CE002676A1 /* Bullet.swift */; };
+		1B23B71F1B526726002676A1 /* InvaderBullet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B23B71E1B526726002676A1 /* InvaderBullet.swift */; };
+		1B23B7211B526756002676A1 /* PlayerBullet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B23B7201B526756002676A1 /* PlayerBullet.swift */; };
+		1B23B7231B52683D002676A1 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 1B23B7221B52683D002676A1 /* images */; };
+		1B23B7251B526EF9002676A1 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B23B7241B526EF9002676A1 /* Utilities.swift */; };
+		1B23B7271B53120E002676A1 /* LevelCompleteScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B23B7261B53120E002676A1 /* LevelCompleteScene.swift */; };
+		1B23B72A1B531374002676A1 /* StarField.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1B23B7281B531374002676A1 /* StarField.sks */; };
+		1B23B72B1B531374002676A1 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B23B7291B531374002676A1 /* spark.png */; };
+		1B23B72D1B53156F002676A1 /* PulsatingText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B23B72C1B53156F002676A1 /* PulsatingText.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +42,6 @@
 		1B23B6ED1B5258FA002676A1 /* platformer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = platformer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B23B6F11B5258FA002676A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B23B6F21B5258FA002676A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1B23B6F41B5258FA002676A1 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		1B23B6F61B5258FA002676A1 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		1B23B6F81B5258FA002676A1 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		1B23B6FB1B5258FA002676A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -40,6 +50,18 @@
 		1B23B7061B5258FA002676A1 /* platformerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = platformerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B23B70B1B5258FA002676A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B23B70C1B5258FA002676A1 /* platformerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = platformerTests.swift; sourceTree = "<group>"; };
+		1B23B7161B525E0C002676A1 /* StartGameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartGameScene.swift; sourceTree = "<group>"; };
+		1B23B7181B52610E002676A1 /* Invader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Invader.swift; sourceTree = "<group>"; };
+		1B23B71A1B5262FF002676A1 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		1B23B71C1B5266CE002676A1 /* Bullet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bullet.swift; sourceTree = "<group>"; };
+		1B23B71E1B526726002676A1 /* InvaderBullet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvaderBullet.swift; sourceTree = "<group>"; };
+		1B23B7201B526756002676A1 /* PlayerBullet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerBullet.swift; sourceTree = "<group>"; };
+		1B23B7221B52683D002676A1 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		1B23B7241B526EF9002676A1 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		1B23B7261B53120E002676A1 /* LevelCompleteScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelCompleteScene.swift; sourceTree = "<group>"; };
+		1B23B7281B531374002676A1 /* StarField.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = StarField.sks; sourceTree = "<group>"; };
+		1B23B7291B531374002676A1 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		1B23B72C1B53156F002676A1 /* PulsatingText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PulsatingText.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +103,21 @@
 		1B23B6EF1B5258FA002676A1 /* platformer */ = {
 			isa = PBXGroup;
 			children = (
+				1B23B7221B52683D002676A1 /* images */,
 				1B23B6F21B5258FA002676A1 /* AppDelegate.swift */,
-				1B23B6F41B5258FA002676A1 /* GameScene.sks */,
+				1B23B7281B531374002676A1 /* StarField.sks */,
+				1B23B7291B531374002676A1 /* spark.png */,
+				1B23B7241B526EF9002676A1 /* Utilities.swift */,
 				1B23B6F61B5258FA002676A1 /* GameScene.swift */,
+				1B23B7261B53120E002676A1 /* LevelCompleteScene.swift */,
+				1B23B71A1B5262FF002676A1 /* Player.swift */,
+				1B23B71C1B5266CE002676A1 /* Bullet.swift */,
+				1B23B71E1B526726002676A1 /* InvaderBullet.swift */,
+				1B23B72C1B53156F002676A1 /* PulsatingText.swift */,
+				1B23B7201B526756002676A1 /* PlayerBullet.swift */,
 				1B23B6F81B5258FA002676A1 /* GameViewController.swift */,
+				1B23B7161B525E0C002676A1 /* StartGameScene.swift */,
+				1B23B7181B52610E002676A1 /* Invader.swift */,
 				1B23B6FA1B5258FA002676A1 /* Main.storyboard */,
 				1B23B6FD1B5258FA002676A1 /* Images.xcassets */,
 				1B23B6FF1B5258FA002676A1 /* LaunchScreen.xib */,
@@ -198,9 +231,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B23B7231B52683D002676A1 /* images in Resources */,
+				1B23B72B1B531374002676A1 /* spark.png in Resources */,
 				1B23B7011B5258FA002676A1 /* LaunchScreen.xib in Resources */,
+				1B23B72A1B531374002676A1 /* StarField.sks in Resources */,
 				1B23B6FE1B5258FA002676A1 /* Images.xcassets in Resources */,
-				1B23B6F51B5258FA002676A1 /* GameScene.sks in Resources */,
 				1B23B6FC1B5258FA002676A1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,9 +254,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B23B7211B526756002676A1 /* PlayerBullet.swift in Sources */,
 				1B23B6F71B5258FA002676A1 /* GameScene.swift in Sources */,
+				1B23B7171B525E0C002676A1 /* StartGameScene.swift in Sources */,
+				1B23B7271B53120E002676A1 /* LevelCompleteScene.swift in Sources */,
+				1B23B7191B52610E002676A1 /* Invader.swift in Sources */,
+				1B23B71D1B5266CE002676A1 /* Bullet.swift in Sources */,
 				1B23B6F91B5258FA002676A1 /* GameViewController.swift in Sources */,
+				1B23B71B1B5262FF002676A1 /* Player.swift in Sources */,
 				1B23B6F31B5258FA002676A1 /* AppDelegate.swift in Sources */,
+				1B23B7251B526EF9002676A1 /* Utilities.swift in Sources */,
+				1B23B72D1B53156F002676A1 /* PulsatingText.swift in Sources */,
+				1B23B71F1B526726002676A1 /* InvaderBullet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
